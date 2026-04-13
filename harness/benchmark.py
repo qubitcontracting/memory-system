@@ -282,11 +282,24 @@ def query_claude_mem_fixed(question_text, n_results=5):
 
 
 def query_basic_memory(question_text, n_results=5):
-    """Query Basic Memory via CLI search-notes tool."""
+    """Query Basic Memory via CLI search-notes tool (benchmark sandbox)."""
     try:
         result = subprocess.run(
             ["basic-memory", "tool", "search-notes", question_text,
              "--project", "benchmark"],
+            capture_output=True, text=True, timeout=30
+        )
+        return result.stdout.strip()
+    except Exception as e:
+        return f"Error: {e}"
+
+
+def query_basic_memory_main(question_text, n_results=5):
+    """Query Basic Memory main project (production)."""
+    try:
+        result = subprocess.run(
+            ["basic-memory", "tool", "search-notes", question_text,
+             "--project", "main"],
             capture_output=True, text=True, timeout=30
         )
         return result.stdout.strip()
@@ -361,6 +374,7 @@ QUERY_ADAPTERS = {
     "claude-mem-old": query_claude_mem_old,
     "claude-mem-fixed": query_claude_mem_fixed,
     "basic-memory": query_basic_memory,
+    "basic-memory-main": query_basic_memory_main,
     "mempalace": query_mempalace,
     "knowledge-graph": query_knowledge_graph,
     "memsearch": query_memsearch,

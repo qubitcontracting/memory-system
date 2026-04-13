@@ -222,18 +222,52 @@ WSL / skynet / macbook / any machine
 
 | Component | Status |
 |-----------|--------|
-| Basic Memory | Installed (v0.20.3), needs project setup |
-| context-autosave.js | Exists, needs one addition (write to BM dir) |
+| Basic Memory | DONE — Installed (v0.20.3), project "main" at ~/basic-memory/, MCP in settings.json |
+| context-autosave.js | DONE — writes raw transcript to ~/basic-memory/sessions/ + spool file |
 | Spool directory | Exists, unchanged |
 | Spool processor | Exists, needs rewrite (Chroma → markdown + FalkorDBLite) |
 | Circuit breaker | Exists, unchanged |
 | LLM config | Exists, unchanged |
 | Ollama on vader | Exists, unchanged |
-| FalkorDBLite | New, pip install |
-| Cognee | New, pip install in venv |
+| FalkorDBLite | VERIFIED — pip install works, embedded Cypher queries tested |
+| Cognee | VERIFIED — works with Ollama after adapter patch, needs transformers pip dep |
 | Tier 2 (Connector) | New Python script |
 | Tier 3 (Synthesizer) | New Python script |
 | Tier 4 (Gardener) | New Python script |
 | Retrieval MCP server | New, thin wrapper |
-| Syncthing | New for this use case |
+| Syncthing | Deferred — start with remote-only (server-side BM) |
 | FalkorDB Browser | Optional, for visual exploration |
+
+## Cognee + Ollama Integration (VERIFIED 2026-04-13)
+
+Cognee 1.0.0 works with local Ollama after one code patch and proper config.
+
+### Adapter patch
+File: `cognee/.../ollama/adapter.py` — append `/v1` to endpoint, strip `ollama/` from model name.
+
+### Config
+```python
+cognee.config.set_llm_config({
+    'llm_provider': 'ollama',
+    'llm_model': 'ollama/qwen2.5:32b',  # or qwen2.5-coder:7b — both work
+    'llm_endpoint': 'http://192.168.0.126:11434',
+    'llm_api_key': 'ollama',
+})
+cognee.config.set_embedding_config({
+    'embedding_provider': 'ollama',
+    'embedding_model': 'nomic-embed-text',
+    'embedding_endpoint': 'http://192.168.0.126:11434/api/embed',
+    'embedding_api_key': 'ollama',
+    'embedding_dimensions': 768,
+    'huggingface_tokenizer': 'nomic-ai/nomic-embed-text-v1',
+})
+os.environ['COGNEE_SKIP_CONNECTION_TEST'] = 'true'
+os.environ['OLLAMA_API_BASE'] = 'http://192.168.0.126:11434'
+```
+
+### Test results
+- "What port does Deal Finder run on?" → `Deal Finder runs on port 8200`
+- "What depends on Ollama?" → `spool processor`
+- "What IP is Vader?" → `192.168.0.126`
+
+Full patch: `~/memory-benchmark/cognee-ollama-patch.py` and `cognee-patch-notes.md`
