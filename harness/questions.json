@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "What port does the Deal Finder MCP service run on?",
+    "category": "factual",
+    "ground_truth": "8200",
+    "required_keywords": ["8200"],
+    "partial_keywords": ["deal-finder", "deal finder", "docker", "mcp"]
+  },
+  {
+    "id": 2,
+    "question": "What IP address is the Chroma database running on?",
+    "category": "factual",
+    "ground_truth": "192.168.0.144",
+    "required_keywords": ["192.168.0.144"],
+    "partial_keywords": ["chroma", "docker", "lxc"]
+  },
+  {
+    "id": 3,
+    "question": "What Ollama model does the spool processor use for summarization?",
+    "category": "factual",
+    "ground_truth": "qwen2.5-coder:7b",
+    "required_keywords": ["qwen2.5-coder"],
+    "partial_keywords": ["7b", "ollama", "summariz"]
+  },
+  {
+    "id": 4,
+    "question": "What machine runs Ollama and what is its IP address?",
+    "category": "factual",
+    "ground_truth": "vader, 192.168.0.126",
+    "required_keywords": ["vader", "192.168.0.126"],
+    "partial_keywords": ["mac studio", "m3 ultra", "ollama"]
+  },
+  {
+    "id": 5,
+    "question": "How much RAM does voldemort have?",
+    "category": "factual",
+    "ground_truth": "64GB",
+    "required_keywords": ["64"],
+    "partial_keywords": ["voldemort", "m4 pro", "mac mini"]
+  },
+  {
+    "id": 6,
+    "question": "What is the default model for MLX distributed inference?",
+    "category": "factual",
+    "ground_truth": "Qwen3-Coder-Next 8-bit",
+    "required_keywords": ["qwen3-coder-next", "coder-next", "coder next"],
+    "partial_keywords": ["8-bit", "8bit", "mlx", "distributed"]
+  },
+  {
+    "id": 7,
+    "question": "What is the Gitea admin password?",
+    "category": "factual",
+    "ground_truth": "gitea2026",
+    "required_keywords": ["gitea2026"],
+    "partial_keywords": ["gitea", "admin", "password"]
+  },
+  {
+    "id": 8,
+    "question": "What SSH port does Gitea use?",
+    "category": "factual",
+    "ground_truth": "2222",
+    "required_keywords": ["2222"],
+    "partial_keywords": ["gitea", "ssh", "port"]
+  },
+  {
+    "id": 9,
+    "question": "What cron schedule runs the spool processor?",
+    "category": "factual",
+    "ground_truth": "*/10 * * * *",
+    "required_keywords": ["10"],
+    "partial_keywords": ["cron", "spool", "processor", "minute"]
+  },
+  {
+    "id": 10,
+    "question": "What port does the Engineering RAG MCP server run on?",
+    "category": "factual",
+    "ground_truth": "8100",
+    "required_keywords": ["8100"],
+    "partial_keywords": ["engineering", "rag", "mcp", "gargamel"]
+  },
+  {
+    "id": 11,
+    "question": "How do you start the MLX distributed inference server?",
+    "category": "procedural",
+    "ground_truth": "Run ~/.config/mlx/start-distributed-server.sh on voldemort, which bounces RDMA on both machines",
+    "required_keywords": ["start-distributed-server", "voldemort"],
+    "partial_keywords": ["rdma", "bounce", "mlx", "script", "config"]
+  },
+  {
+    "id": 12,
+    "question": "What was the fix for the autosave document ID overwrite bug?",
+    "category": "procedural",
+    "ground_truth": "doc_id now includes checkpoint number, format: autosave_{hostname}_{session_id}_{checkpoint}",
+    "required_keywords": ["checkpoint"],
+    "partial_keywords": ["doc_id", "overwrite", "autosave", "session_id"]
+  },
+  {
+    "id": 13,
+    "question": "How does the circuit breaker work in the spool processor?",
+    "category": "procedural",
+    "ground_truth": "After 3 consecutive Ollama failures, exponential backoff starting at 10 minutes, doubling up to 60 min cap",
+    "required_keywords": ["3", "backoff"],
+    "partial_keywords": ["consecutive", "failure", "exponential", "ollama", "circuit"]
+  },
+  {
+    "id": 14,
+    "question": "What steps are needed to set up screen sharing on voldemort?",
+    "category": "procedural",
+    "ground_truth": "System Settings > General > Sharing > Screen Sharing ON",
+    "required_keywords": ["screen sharing"],
+    "partial_keywords": ["system settings", "sharing", "voldemort", "general"]
+  },
+  {
+    "id": 15,
+    "question": "How was PersonaPlex converted to run on Apple Silicon via MLX?",
+    "category": "procedural",
+    "ground_truth": "Used moshi_mlx framework, converted weights, patched generate.py, lm.py, local.py for dep_q=16",
+    "required_keywords": ["moshi"],
+    "partial_keywords": ["personaplex", "dep_q", "generate", "lm.py", "local.py", "mlx", "patch"]
+  },
+  {
+    "id": 16,
+    "question": "What MCP services are deployed and on what machines?",
+    "category": "synthesis",
+    "ground_truth": "Deal Finder on Docker LXC:8200, Engineering RAG on gargamel:8100, claude-mem Chroma on Docker LXC, MemPalace locally, home-assistant, proxmox, n8n",
+    "required_keywords": ["deal finder", "engineering rag"],
+    "partial_keywords": ["8200", "8100", "gargamel", "docker", "mcp"]
+  },
+  {
+    "id": 17,
+    "question": "What are all the machines in the homelab with their Tailscale IPs?",
+    "category": "synthesis",
+    "ground_truth": "proxmox 100.116.90.102, unraid 100.97.57.87, vader 100.105.116.62, voldemort 100.121.90.87, gargamel 100.70.57.45, skynet 100.65.17.76, pihole 100.76.117.104",
+    "required_keywords": ["100."],
+    "partial_keywords": ["proxmox", "unraid", "vader", "voldemort", "gargamel", "skynet", "tailscale"]
+  },
+  {
+    "id": 18,
+    "question": "What problems were encountered with the Amazon/AliExpress product scraping?",
+    "category": "synthesis",
+    "ground_truth": "CAPTCHA blocked from datacenter IP for AliExpress, Amazon stock monitor uses curl with browser user agent to check availability",
+    "required_keywords": ["captcha", "block"],
+    "partial_keywords": ["aliexpress", "amazon", "scraping", "datacenter", "monitor"]
+  },
+  {
+    "id": 19,
+    "question": "What custom patches were made to mlx_lm model files for tensor parallel support?",
+    "category": "synthesis",
+    "ground_truth": "qwen3_moe.py shard function, qwen3_next.py shard with GatedDeltaNet skipped, chat template patches for thinking mode",
+    "required_keywords": ["qwen3"],
+    "partial_keywords": ["shard", "moe", "qwen3_next", "gatedeltanet", "tensor parallel", "chat template", "patch"]
+  },
+  {
+    "id": 20,
+    "question": "Describe the full autosave pipeline from Claude Code session to Chroma storage.",
+    "category": "synthesis",
+    "ground_truth": "context-autosave.js hook triggers at checkpoints, dumps transcript to ~/.claude-mem/spool/, cron runs spool-processor.py every 10 min, Ollama summarizes, stores in local Chroma, sync-to-remote.py pushes to Docker LXC Chroma",
+    "required_keywords": ["spool", "ollama"],
+    "partial_keywords": ["context-autosave", "checkpoint", "chroma", "cron", "sync", "processor", "hook"]
+  }
+]

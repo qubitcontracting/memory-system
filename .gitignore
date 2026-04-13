@@ -1,0 +1,20 @@
+# Sandboxes contain installed packages and generated data
+sandboxes/*/venv/
+sandboxes/*/node_modules/
+sandboxes/*/chroma/
+sandboxes/*/palace/
+sandboxes/memsearch/milvus.db
+sandboxes/memsearch/.milvus.db.lock
+sandboxes/knowledge-graph/data/
+sandboxes/claude-mem-v12/node_modules/
+sandboxes/claude-mem-v12/package-lock.json
+
+# Corpus text files (generated from JSONL transcripts)
+corpus/text/
+
+# Results contain per-run JSON (keep report only)
+results/run-*/
+
+# Python cache
+__pycache__/
+*.pyc

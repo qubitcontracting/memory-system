@@ -1,0 +1,1652 @@
+[
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk000",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 0,
+    "total_chunks": 28,
+    "messages": 379,
+    "user_messages": 50,
+    "size_bytes": 138481
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk001",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 1,
+    "total_chunks": 28,
+    "messages": 161,
+    "user_messages": 50,
+    "size_bytes": 53028
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk002",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 2,
+    "total_chunks": 28,
+    "messages": 246,
+    "user_messages": 50,
+    "size_bytes": 114374
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk003",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 3,
+    "total_chunks": 28,
+    "messages": 127,
+    "user_messages": 50,
+    "size_bytes": 38005
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk004",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 4,
+    "total_chunks": 28,
+    "messages": 112,
+    "user_messages": 50,
+    "size_bytes": 73710
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk005",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 5,
+    "total_chunks": 28,
+    "messages": 126,
+    "user_messages": 50,
+    "size_bytes": 32177
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk006",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 6,
+    "total_chunks": 28,
+    "messages": 153,
+    "user_messages": 50,
+    "size_bytes": 31769
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk007",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 7,
+    "total_chunks": 28,
+    "messages": 282,
+    "user_messages": 50,
+    "size_bytes": 79150
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk008",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 8,
+    "total_chunks": 28,
+    "messages": 251,
+    "user_messages": 50,
+    "size_bytes": 73808
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk009",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 9,
+    "total_chunks": 28,
+    "messages": 332,
+    "user_messages": 50,
+    "size_bytes": 87764
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk010",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 10,
+    "total_chunks": 28,
+    "messages": 176,
+    "user_messages": 50,
+    "size_bytes": 36716
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk011",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 11,
+    "total_chunks": 28,
+    "messages": 376,
+    "user_messages": 50,
+    "size_bytes": 113025
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk012",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 12,
+    "total_chunks": 28,
+    "messages": 289,
+    "user_messages": 50,
+    "size_bytes": 67346
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk013",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 13,
+    "total_chunks": 28,
+    "messages": 194,
+    "user_messages": 50,
+    "size_bytes": 61205
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk014",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 14,
+    "total_chunks": 28,
+    "messages": 172,
+    "user_messages": 50,
+    "size_bytes": 48928
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk015",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 15,
+    "total_chunks": 28,
+    "messages": 178,
+    "user_messages": 50,
+    "size_bytes": 42838
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk016",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 16,
+    "total_chunks": 28,
+    "messages": 191,
+    "user_messages": 50,
+    "size_bytes": 61636
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk017",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 17,
+    "total_chunks": 28,
+    "messages": 166,
+    "user_messages": 50,
+    "size_bytes": 56808
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk018",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 18,
+    "total_chunks": 28,
+    "messages": 137,
+    "user_messages": 50,
+    "size_bytes": 35179
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk019",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 19,
+    "total_chunks": 28,
+    "messages": 282,
+    "user_messages": 50,
+    "size_bytes": 93949
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk020",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 20,
+    "total_chunks": 28,
+    "messages": 190,
+    "user_messages": 50,
+    "size_bytes": 51130
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk021",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 21,
+    "total_chunks": 28,
+    "messages": 188,
+    "user_messages": 50,
+    "size_bytes": 62859
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk022",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 22,
+    "total_chunks": 28,
+    "messages": 374,
+    "user_messages": 50,
+    "size_bytes": 137926
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk023",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 23,
+    "total_chunks": 28,
+    "messages": 192,
+    "user_messages": 50,
+    "size_bytes": 64157
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk024",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 24,
+    "total_chunks": 28,
+    "messages": 183,
+    "user_messages": 50,
+    "size_bytes": 61170
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk025",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 25,
+    "total_chunks": 28,
+    "messages": 284,
+    "user_messages": 50,
+    "size_bytes": 85395
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk026",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 26,
+    "total_chunks": 28,
+    "messages": 293,
+    "user_messages": 50,
+    "size_bytes": 130632
+  },
+  {
+    "id": "c0103e0e-9fb7-45a2-8975-bb2762f13433_chunk027",
+    "session_id": "c0103e0e-9fb7-45a2-8975-bb2762f13433",
+    "project": "-home-thomas-claude-random",
+    "chunk": 27,
+    "total_chunks": 28,
+    "messages": 12,
+    "user_messages": 8,
+    "size_bytes": 2179
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk000",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 0,
+    "total_chunks": 28,
+    "messages": 230,
+    "user_messages": 50,
+    "size_bytes": 80139
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk001",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 1,
+    "total_chunks": 28,
+    "messages": 144,
+    "user_messages": 50,
+    "size_bytes": 52500
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk002",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 2,
+    "total_chunks": 28,
+    "messages": 137,
+    "user_messages": 50,
+    "size_bytes": 45284
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk003",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 3,
+    "total_chunks": 28,
+    "messages": 129,
+    "user_messages": 50,
+    "size_bytes": 57796
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk004",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 4,
+    "total_chunks": 28,
+    "messages": 112,
+    "user_messages": 50,
+    "size_bytes": 47116
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk005",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 5,
+    "total_chunks": 28,
+    "messages": 140,
+    "user_messages": 50,
+    "size_bytes": 117242
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk006",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 6,
+    "total_chunks": 28,
+    "messages": 140,
+    "user_messages": 50,
+    "size_bytes": 33467
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk007",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 7,
+    "total_chunks": 28,
+    "messages": 157,
+    "user_messages": 50,
+    "size_bytes": 34523
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk008",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 8,
+    "total_chunks": 28,
+    "messages": 137,
+    "user_messages": 50,
+    "size_bytes": 41692
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk009",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 9,
+    "total_chunks": 28,
+    "messages": 137,
+    "user_messages": 50,
+    "size_bytes": 38165
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk010",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 10,
+    "total_chunks": 28,
+    "messages": 136,
+    "user_messages": 50,
+    "size_bytes": 30333
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk011",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 11,
+    "total_chunks": 28,
+    "messages": 106,
+    "user_messages": 50,
+    "size_bytes": 32484
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk012",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 12,
+    "total_chunks": 28,
+    "messages": 123,
+    "user_messages": 50,
+    "size_bytes": 51447
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk013",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 13,
+    "total_chunks": 28,
+    "messages": 143,
+    "user_messages": 50,
+    "size_bytes": 33309
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk014",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 14,
+    "total_chunks": 28,
+    "messages": 125,
+    "user_messages": 50,
+    "size_bytes": 27511
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk015",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 15,
+    "total_chunks": 28,
+    "messages": 134,
+    "user_messages": 50,
+    "size_bytes": 33471
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk016",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 16,
+    "total_chunks": 28,
+    "messages": 124,
+    "user_messages": 50,
+    "size_bytes": 42613
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk017",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 17,
+    "total_chunks": 28,
+    "messages": 141,
+    "user_messages": 50,
+    "size_bytes": 24710
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk018",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 18,
+    "total_chunks": 28,
+    "messages": 174,
+    "user_messages": 50,
+    "size_bytes": 42241
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk019",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 19,
+    "total_chunks": 28,
+    "messages": 134,
+    "user_messages": 50,
+    "size_bytes": 29461
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk020",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 20,
+    "total_chunks": 28,
+    "messages": 122,
+    "user_messages": 50,
+    "size_bytes": 33334
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk021",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 21,
+    "total_chunks": 28,
+    "messages": 121,
+    "user_messages": 50,
+    "size_bytes": 27572
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk022",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 22,
+    "total_chunks": 28,
+    "messages": 137,
+    "user_messages": 50,
+    "size_bytes": 54042
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk023",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 23,
+    "total_chunks": 28,
+    "messages": 161,
+    "user_messages": 50,
+    "size_bytes": 29119
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk024",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 24,
+    "total_chunks": 28,
+    "messages": 125,
+    "user_messages": 50,
+    "size_bytes": 26165
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk025",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 25,
+    "total_chunks": 28,
+    "messages": 132,
+    "user_messages": 50,
+    "size_bytes": 34415
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk026",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 26,
+    "total_chunks": 28,
+    "messages": 95,
+    "user_messages": 50,
+    "size_bytes": 30399
+  },
+  {
+    "id": "3b701a1b-9631-4d35-b8af-a8090a413792_chunk027",
+    "session_id": "3b701a1b-9631-4d35-b8af-a8090a413792",
+    "project": "-home-thomas-claude-general",
+    "chunk": 27,
+    "total_chunks": 28,
+    "messages": 132,
+    "user_messages": 50,
+    "size_bytes": 81066
+  },
+  {
+    "id": "04156758-0017-4767-bc5b-d7db7ca4d7b7",
+    "session_id": "04156758-0017-4767-bc5b-d7db7ca4d7b7",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 318,
+    "user_messages": 46,
+    "size_bytes": 99607
+  },
+  {
+    "id": "5d44c4e3-8303-4a11-8f5b-a24e86e08149",
+    "session_id": "5d44c4e3-8303-4a11-8f5b-a24e86e08149",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 4,
+    "user_messages": 1,
+    "size_bytes": 21699
+  },
+  {
+    "id": "dee512f2-352c-46c7-9838-d88e1c0f0f49",
+    "session_id": "dee512f2-352c-46c7-9838-d88e1c0f0f49",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 4,
+    "user_messages": 2,
+    "size_bytes": 2119
+  },
+  {
+    "id": "31518df4-a95f-4e22-9423-ac05854631a0",
+    "session_id": "31518df4-a95f-4e22-9423-ac05854631a0",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 6,
+    "user_messages": 2,
+    "size_bytes": 2747
+  },
+  {
+    "id": "3688bc08-852b-44d3-9a74-d2164f37b6a1",
+    "session_id": "3688bc08-852b-44d3-9a74-d2164f37b6a1",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 5,
+    "user_messages": 2,
+    "size_bytes": 2363
+  },
+  {
+    "id": "feed0b40-d59e-4ffe-a54c-280515728871",
+    "session_id": "feed0b40-d59e-4ffe-a54c-280515728871",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 1192
+  },
+  {
+    "id": "5b02cd0a-7dfb-4a9e-a886-0356cd8890dd",
+    "session_id": "5b02cd0a-7dfb-4a9e-a886-0356cd8890dd",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 4,
+    "user_messages": 2,
+    "size_bytes": 2025
+  },
+  {
+    "id": "3f075f43-d0b4-454d-8e0f-ca8f1c184851",
+    "session_id": "3f075f43-d0b4-454d-8e0f-ca8f1c184851",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 4,
+    "user_messages": 2,
+    "size_bytes": 1657
+  },
+  {
+    "id": "809970c4-b2f4-42d2-8d91-3c89ee878044",
+    "session_id": "809970c4-b2f4-42d2-8d91-3c89ee878044",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 1215
+  },
+  {
+    "id": "d5d8ce8c-6eac-4ae3-b75c-03a53c4c1eef",
+    "session_id": "d5d8ce8c-6eac-4ae3-b75c-03a53c4c1eef",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 4,
+    "user_messages": 2,
+    "size_bytes": 1814
+  },
+  {
+    "id": "89418c76-5e80-4a36-bdcc-6f621d59db48",
+    "session_id": "89418c76-5e80-4a36-bdcc-6f621d59db48",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 4,
+    "user_messages": 2,
+    "size_bytes": 1735
+  },
+  {
+    "id": "cdda72a4-e582-43a1-a474-c0379286b058",
+    "session_id": "cdda72a4-e582-43a1-a474-c0379286b058",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 938
+  },
+  {
+    "id": "1b1f7a75-23e6-4015-b556-ff120191d3b1",
+    "session_id": "1b1f7a75-23e6-4015-b556-ff120191d3b1",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 766
+  },
+  {
+    "id": "600342f0-a28a-4312-9119-3c0fc5191dec",
+    "session_id": "600342f0-a28a-4312-9119-3c0fc5191dec",
+    "project": "-home-thomas-claude-random-tb5-jaccl-toolkit",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 4,
+    "user_messages": 1,
+    "size_bytes": 3162
+  },
+  {
+    "id": "b148c570-6150-4fc5-8feb-5275e5e0897b",
+    "session_id": "b148c570-6150-4fc5-8feb-5275e5e0897b",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 253
+  },
+  {
+    "id": "66b5fe51-d0e2-4f79-86a3-1b25a67b0725",
+    "session_id": "66b5fe51-d0e2-4f79-86a3-1b25a67b0725",
+    "project": "-home-thomas-claude-random-tb5-jaccl-toolkit",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 4,
+    "user_messages": 1,
+    "size_bytes": 2256
+  },
+  {
+    "id": "7a8cf3fb-7b41-47c9-8b01-98de466385a0",
+    "session_id": "7a8cf3fb-7b41-47c9-8b01-98de466385a0",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 205
+  },
+  {
+    "id": "5c64e9c7-1c0d-4801-8ff4-52196482de0e",
+    "session_id": "5c64e9c7-1c0d-4801-8ff4-52196482de0e",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 3,
+    "user_messages": 1,
+    "size_bytes": 21615
+  },
+  {
+    "id": "8e0635d3-d63c-4c05-8bb3-6785bb2a984e",
+    "session_id": "8e0635d3-d63c-4c05-8bb3-6785bb2a984e",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 23059
+  },
+  {
+    "id": "1963367f-760a-450b-9f49-30446f6a3840",
+    "session_id": "1963367f-760a-450b-9f49-30446f6a3840",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 22202
+  },
+  {
+    "id": "d48937ff-edca-4558-9f44-61917d014677",
+    "session_id": "d48937ff-edca-4558-9f44-61917d014677",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 20634
+  },
+  {
+    "id": "ca248e70-0595-4d21-bf15-852c0365890e",
+    "session_id": "ca248e70-0595-4d21-bf15-852c0365890e",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 22614
+  },
+  {
+    "id": "47ab8102-e9ce-408c-9990-7f896577e400",
+    "session_id": "47ab8102-e9ce-408c-9990-7f896577e400",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 21553
+  },
+  {
+    "id": "b3f1e4bb-840e-446f-8dd4-747a9b710332",
+    "session_id": "b3f1e4bb-840e-446f-8dd4-747a9b710332",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 22266
+  },
+  {
+    "id": "0a9abee0-72b7-4220-9d55-e662f587ac58",
+    "session_id": "0a9abee0-72b7-4220-9d55-e662f587ac58",
+    "project": "-home-thomas-claude-random-mlx-lm",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 21495
+  },
+  {
+    "id": "c3938412-a7f4-4337-b6fb-d67ec56519b9",
+    "session_id": "c3938412-a7f4-4337-b6fb-d67ec56519b9",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 21712
+  },
+  {
+    "id": "00ba034d-c460-4f5c-bfef-ec07879ceb42",
+    "session_id": "00ba034d-c460-4f5c-bfef-ec07879ceb42",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 21887
+  },
+  {
+    "id": "0c055e42-2cce-4f01-ac40-8d5b68b15141",
+    "session_id": "0c055e42-2cce-4f01-ac40-8d5b68b15141",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 21404
+  },
+  {
+    "id": "96376fd8-deea-47cb-84c5-75a10a6de2f9",
+    "session_id": "96376fd8-deea-47cb-84c5-75a10a6de2f9",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 21343
+  },
+  {
+    "id": "8c7c5016-ca28-4813-bdf2-5f0418e0fd51",
+    "session_id": "8c7c5016-ca28-4813-bdf2-5f0418e0fd51",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 21644
+  },
+  {
+    "id": "c9eaecd9-f673-4241-92e5-56ecef93a628",
+    "session_id": "c9eaecd9-f673-4241-92e5-56ecef93a628",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 18626
+  },
+  {
+    "id": "10430bb5-6428-422b-a9f1-a37cfac34dd2",
+    "session_id": "10430bb5-6428-422b-a9f1-a37cfac34dd2",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 3,
+    "user_messages": 1,
+    "size_bytes": 6419
+  },
+  {
+    "id": "b2c1ed5e-4e55-4eb8-a868-853faf879db2",
+    "session_id": "b2c1ed5e-4e55-4eb8-a868-853faf879db2",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 3,
+    "user_messages": 1,
+    "size_bytes": 8742
+  },
+  {
+    "id": "b9c5b4ec-83e7-4eba-a001-19ab618fdc0f",
+    "session_id": "b9c5b4ec-83e7-4eba-a001-19ab618fdc0f",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 18673
+  },
+  {
+    "id": "34edb0fa-6d1a-4d77-b466-a09404031a91",
+    "session_id": "34edb0fa-6d1a-4d77-b466-a09404031a91",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 17681
+  },
+  {
+    "id": "ba945190-753f-4d04-9d39-bc206ebf62dd",
+    "session_id": "ba945190-753f-4d04-9d39-bc206ebf62dd",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 6,
+    "user_messages": 1,
+    "size_bytes": 2678
+  },
+  {
+    "id": "440771dc-2c6a-482f-b2fa-174908e09e0f",
+    "session_id": "440771dc-2c6a-482f-b2fa-174908e09e0f",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 253
+  },
+  {
+    "id": "6a5748e9-d504-4e92-988c-6614efc76259",
+    "session_id": "6a5748e9-d504-4e92-988c-6614efc76259",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 346
+  },
+  {
+    "id": "36dff4a5-3f96-409a-bf67-d586bd2ebf64",
+    "session_id": "36dff4a5-3f96-409a-bf67-d586bd2ebf64",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 255
+  },
+  {
+    "id": "a802d3a3-19d3-4fe4-9a52-53455e14532e",
+    "session_id": "a802d3a3-19d3-4fe4-9a52-53455e14532e",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 3,
+    "user_messages": 1,
+    "size_bytes": 7668
+  },
+  {
+    "id": "cb0c0193-9b76-44c4-be14-f99e6ca82a3c",
+    "session_id": "cb0c0193-9b76-44c4-be14-f99e6ca82a3c",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 256
+  },
+  {
+    "id": "cbd86d38-ef8b-44d3-9c60-4653bd617884",
+    "session_id": "cbd86d38-ef8b-44d3-9c60-4653bd617884",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 13870
+  },
+  {
+    "id": "493d3fdd-6a65-480a-af77-409eef66bdcd",
+    "session_id": "493d3fdd-6a65-480a-af77-409eef66bdcd",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 3,
+    "user_messages": 1,
+    "size_bytes": 11343
+  },
+  {
+    "id": "724f5885-486d-4c7a-a94c-df71f276be55",
+    "session_id": "724f5885-486d-4c7a-a94c-df71f276be55",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 247
+  },
+  {
+    "id": "ff33cee1-91e9-4a0d-a294-9bae2990d1fc",
+    "session_id": "ff33cee1-91e9-4a0d-a294-9bae2990d1fc",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 11272
+  },
+  {
+    "id": "8328cb0e-f01e-4de1-ae51-fe2b6cd3bb5d",
+    "session_id": "8328cb0e-f01e-4de1-ae51-fe2b6cd3bb5d",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 3,
+    "user_messages": 1,
+    "size_bytes": 8512
+  },
+  {
+    "id": "caf10bd2-dbce-4e5a-aa9b-22d2555dc9c9",
+    "session_id": "caf10bd2-dbce-4e5a-aa9b-22d2555dc9c9",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 3,
+    "user_messages": 1,
+    "size_bytes": 6563
+  },
+  {
+    "id": "2791d1cc-c606-4761-8cc0-afa636914cd6",
+    "session_id": "2791d1cc-c606-4761-8cc0-afa636914cd6",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 3,
+    "user_messages": 1,
+    "size_bytes": 2133
+  },
+  {
+    "id": "33b22a71-2a0b-4016-a218-d0a75a0c472c",
+    "session_id": "33b22a71-2a0b-4016-a218-d0a75a0c472c",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 3,
+    "user_messages": 1,
+    "size_bytes": 4903
+  },
+  {
+    "id": "02df1659-5773-4161-92be-9e7a07840aa0",
+    "session_id": "02df1659-5773-4161-92be-9e7a07840aa0",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 9823
+  },
+  {
+    "id": "af901708-e276-4ef6-aa14-1df7bef51ce9",
+    "session_id": "af901708-e276-4ef6-aa14-1df7bef51ce9",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 9393
+  },
+  {
+    "id": "c253b60c-30f0-446d-b4da-092903d5eab6",
+    "session_id": "c253b60c-30f0-446d-b4da-092903d5eab6",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 8988
+  },
+  {
+    "id": "39a50341-cdd3-43b0-8f07-300cb4d01241",
+    "session_id": "39a50341-cdd3-43b0-8f07-300cb4d01241",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 8351
+  },
+  {
+    "id": "67c8808f-5c89-47ee-8de4-f50212d06cad",
+    "session_id": "67c8808f-5c89-47ee-8de4-f50212d06cad",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 7719
+  },
+  {
+    "id": "f26f76b5-7ee2-4415-a214-facc346e09a2",
+    "session_id": "f26f76b5-7ee2-4415-a214-facc346e09a2",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 7151
+  },
+  {
+    "id": "9d33668d-fbb3-409e-a553-3d0580d7b64c",
+    "session_id": "9d33668d-fbb3-409e-a553-3d0580d7b64c",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 7744
+  },
+  {
+    "id": "2e5b41f8-922c-48fc-9e9c-fa91a6913858",
+    "session_id": "2e5b41f8-922c-48fc-9e9c-fa91a6913858",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 7645
+  },
+  {
+    "id": "539bde02-c400-4fd0-925e-a763d4663bef",
+    "session_id": "539bde02-c400-4fd0-925e-a763d4663bef",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 6934
+  },
+  {
+    "id": "960a0331-62b9-4803-b73e-1486fc44d5b2",
+    "session_id": "960a0331-62b9-4803-b73e-1486fc44d5b2",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 6975
+  },
+  {
+    "id": "238fe296-bd89-401d-9998-e805ce36b5d9",
+    "session_id": "238fe296-bd89-401d-9998-e805ce36b5d9",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 3,
+    "user_messages": 1,
+    "size_bytes": 1945
+  },
+  {
+    "id": "2b160699-b525-4a0a-b1a7-b57d1557c73d",
+    "session_id": "2b160699-b525-4a0a-b1a7-b57d1557c73d",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 6656
+  },
+  {
+    "id": "e6af4ebf-544f-4fae-8458-2aa20c46c6ef",
+    "session_id": "e6af4ebf-544f-4fae-8458-2aa20c46c6ef",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 6646
+  },
+  {
+    "id": "7f2039c9-f2d7-424f-a0a2-2082f157fbcb",
+    "session_id": "7f2039c9-f2d7-424f-a0a2-2082f157fbcb",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 3,
+    "user_messages": 0,
+    "size_bytes": 889
+  },
+  {
+    "id": "cfc124ab-9450-4ec9-be3a-25cbc789c06e",
+    "session_id": "cfc124ab-9450-4ec9-be3a-25cbc789c06e",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 3,
+    "user_messages": 0,
+    "size_bytes": 836
+  },
+  {
+    "id": "50dc0c66-27f0-4886-ae05-83c248f7a1ae",
+    "session_id": "50dc0c66-27f0-4886-ae05-83c248f7a1ae",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 5996
+  },
+  {
+    "id": "018e2555-4966-4f63-94d0-11c20fae71db",
+    "session_id": "018e2555-4966-4f63-94d0-11c20fae71db",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 3,
+    "user_messages": 1,
+    "size_bytes": 3617
+  },
+  {
+    "id": "4d739e10-7e36-46af-8d59-4c1a18c89a15",
+    "session_id": "4d739e10-7e36-46af-8d59-4c1a18c89a15",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 5588
+  },
+  {
+    "id": "e61f919d-6490-420f-a0aa-18faedc2418e",
+    "session_id": "e61f919d-6490-420f-a0aa-18faedc2418e",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 5522
+  },
+  {
+    "id": "78f463f4-2781-438e-8e01-a87a91b16b9e",
+    "session_id": "78f463f4-2781-438e-8e01-a87a91b16b9e",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 5507
+  },
+  {
+    "id": "b51a242d-30cd-487c-8c1f-d5ba7de68cca",
+    "session_id": "b51a242d-30cd-487c-8c1f-d5ba7de68cca",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 5517
+  },
+  {
+    "id": "ec90a0e1-9c5b-4abb-ac1c-ad574f533908",
+    "session_id": "ec90a0e1-9c5b-4abb-ac1c-ad574f533908",
+    "project": "-home-thomas-claude-random-mlx-lm",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 5283
+  },
+  {
+    "id": "73fc36d0-5f9b-4f6f-86c2-b5c867e98214",
+    "session_id": "73fc36d0-5f9b-4f6f-86c2-b5c867e98214",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 5135
+  },
+  {
+    "id": "54c535ee-b9fc-47ff-85e1-56c2a2030068",
+    "session_id": "54c535ee-b9fc-47ff-85e1-56c2a2030068",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 4927
+  },
+  {
+    "id": "21ecd4fc-7a95-4c9f-9985-c2c9bfb69b0d",
+    "session_id": "21ecd4fc-7a95-4c9f-9985-c2c9bfb69b0d",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 4843
+  },
+  {
+    "id": "0651fe03-eebc-46de-95be-45c48faece11",
+    "session_id": "0651fe03-eebc-46de-95be-45c48faece11",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 4903
+  },
+  {
+    "id": "88e1a812-5a56-4a80-813e-6870c1cdeb62",
+    "session_id": "88e1a812-5a56-4a80-813e-6870c1cdeb62",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 4754
+  },
+  {
+    "id": "9802fb9e-b342-4d23-9ffd-583e80ac516e",
+    "session_id": "9802fb9e-b342-4d23-9ffd-583e80ac516e",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 4725
+  },
+  {
+    "id": "2b9b4819-2a1c-4ef1-b648-f1f2e0f3a34f",
+    "session_id": "2b9b4819-2a1c-4ef1-b648-f1f2e0f3a34f",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 4483
+  },
+  {
+    "id": "375e6958-b06d-4b1a-811a-01969be71ce0",
+    "session_id": "375e6958-b06d-4b1a-811a-01969be71ce0",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 3291
+  },
+  {
+    "id": "b7d666ba-8ed1-4072-8f9b-dc6018b78eb3",
+    "session_id": "b7d666ba-8ed1-4072-8f9b-dc6018b78eb3",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 4363
+  },
+  {
+    "id": "6b79b31a-ab27-418e-a3dd-b9e386bd47ae",
+    "session_id": "6b79b31a-ab27-418e-a3dd-b9e386bd47ae",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 4414
+  },
+  {
+    "id": "cd97b8ad-c123-404f-bf95-f26243d02a1f",
+    "session_id": "cd97b8ad-c123-404f-bf95-f26243d02a1f",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 4293
+  },
+  {
+    "id": "dae65520-a8de-48e5-aad8-3082efb2ba7b",
+    "session_id": "dae65520-a8de-48e5-aad8-3082efb2ba7b",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 0,
+    "size_bytes": 1076
+  },
+  {
+    "id": "c7d110af-5b63-4eb1-80a5-c8b3944ee784",
+    "session_id": "c7d110af-5b63-4eb1-80a5-c8b3944ee784",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 4276
+  },
+  {
+    "id": "1c3158c5-f4fc-4053-a6f1-db64cd94e0bd",
+    "session_id": "1c3158c5-f4fc-4053-a6f1-db64cd94e0bd",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 4147
+  },
+  {
+    "id": "4ff9e3c6-2f3a-42f8-a491-8b5651b6db59",
+    "session_id": "4ff9e3c6-2f3a-42f8-a491-8b5651b6db59",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 0,
+    "size_bytes": 989
+  },
+  {
+    "id": "469cee05-fb0a-4a6b-8d03-eb56b6352c6e",
+    "session_id": "469cee05-fb0a-4a6b-8d03-eb56b6352c6e",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 4087
+  },
+  {
+    "id": "95e3203e-fd4b-4af2-8dda-26b606368d94",
+    "session_id": "95e3203e-fd4b-4af2-8dda-26b606368d94",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 4014
+  },
+  {
+    "id": "a90d615a-43eb-491c-8e91-31088573a6b2",
+    "session_id": "a90d615a-43eb-491c-8e91-31088573a6b2",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 0,
+    "size_bytes": 873
+  },
+  {
+    "id": "b1529b3a-cc5a-4859-810c-5280ee9e8439",
+    "session_id": "b1529b3a-cc5a-4859-810c-5280ee9e8439",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 0,
+    "size_bytes": 875
+  },
+  {
+    "id": "9818e97d-aa28-4758-83f9-030b23c0037b",
+    "session_id": "9818e97d-aa28-4758-83f9-030b23c0037b",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 3985
+  },
+  {
+    "id": "2573cf18-22f9-4380-b128-48334570da52",
+    "session_id": "2573cf18-22f9-4380-b128-48334570da52",
+    "project": "-home-thomas-claude-random-mlx-lm",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 0,
+    "size_bytes": 699
+  },
+  {
+    "id": "b5236aaa-49da-4338-a64c-d7cdf1d3a21e",
+    "session_id": "b5236aaa-49da-4338-a64c-d7cdf1d3a21e",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 0,
+    "size_bytes": 801
+  },
+  {
+    "id": "bd5164a6-18cb-474e-bd90-57e210b6a728",
+    "session_id": "bd5164a6-18cb-474e-bd90-57e210b6a728",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 0,
+    "size_bytes": 845
+  },
+  {
+    "id": "8c0c00ce-c8db-4bf5-a477-d02699c4bbd6",
+    "session_id": "8c0c00ce-c8db-4bf5-a477-d02699c4bbd6",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 3965
+  },
+  {
+    "id": "bf552b49-be0d-4089-9166-2cbd4207b171",
+    "session_id": "bf552b49-be0d-4089-9166-2cbd4207b171",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 3863
+  },
+  {
+    "id": "03d0117d-b51f-4e69-bf27-28ff7573da6c",
+    "session_id": "03d0117d-b51f-4e69-bf27-28ff7573da6c",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 3870
+  },
+  {
+    "id": "9de35dc9-a65f-47ec-8568-4ec8fcd5fbaa",
+    "session_id": "9de35dc9-a65f-47ec-8568-4ec8fcd5fbaa",
+    "project": "-home-thomas-claude-random-tb5-jaccl-toolkit",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 0,
+    "size_bytes": 780
+  },
+  {
+    "id": "ef3ca5f9-a79e-45a2-947d-570888cbbb41",
+    "session_id": "ef3ca5f9-a79e-45a2-947d-570888cbbb41",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 0,
+    "size_bytes": 895
+  },
+  {
+    "id": "029013cb-807c-42f9-b1e4-7e3931fad05e",
+    "session_id": "029013cb-807c-42f9-b1e4-7e3931fad05e",
+    "project": "-home-thomas-claude-random-tb5-jaccl-toolkit",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 0,
+    "size_bytes": 752
+  },
+  {
+    "id": "3c8dbb2e-f99a-47e7-9c2a-fa98e680f849",
+    "session_id": "3c8dbb2e-f99a-47e7-9c2a-fa98e680f849",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 0,
+    "size_bytes": 640
+  },
+  {
+    "id": "092f8fbb-e731-4955-964f-81d627e0a1ea",
+    "session_id": "092f8fbb-e731-4955-964f-81d627e0a1ea",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 0,
+    "size_bytes": 700
+  },
+  {
+    "id": "91486279-6733-4747-9989-f3638493ce9b",
+    "session_id": "91486279-6733-4747-9989-f3638493ce9b",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 0,
+    "size_bytes": 677
+  },
+  {
+    "id": "6d84d32d-4104-4551-b8bf-c241dcbbd842",
+    "session_id": "6d84d32d-4104-4551-b8bf-c241dcbbd842",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 0,
+    "size_bytes": 671
+  },
+  {
+    "id": "47a58fbc-952d-493c-8960-3323e263165d",
+    "session_id": "47a58fbc-952d-493c-8960-3323e263165d",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 0,
+    "size_bytes": 634
+  },
+  {
+    "id": "11bd52b0-df59-44e3-acf5-116ff87a445e",
+    "session_id": "11bd52b0-df59-44e3-acf5-116ff87a445e",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 3668
+  },
+  {
+    "id": "adf135e5-4e4c-42e6-954b-40a4bdac9003",
+    "session_id": "adf135e5-4e4c-42e6-954b-40a4bdac9003",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 0,
+    "size_bytes": 570
+  },
+  {
+    "id": "4ecd97fa-87f9-451c-a888-021c8cd484c4",
+    "session_id": "4ecd97fa-87f9-451c-a888-021c8cd484c4",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 0,
+    "size_bytes": 549
+  },
+  {
+    "id": "4e5c0656-d4c7-4083-98d8-c797641b4898",
+    "session_id": "4e5c0656-d4c7-4083-98d8-c797641b4898",
+    "project": "-home-thomas-claude-random",
+    "chunk": null,
+    "total_chunks": 1,
+    "messages": 2,
+    "user_messages": 1,
+    "size_bytes": 3558
+  }
+]
