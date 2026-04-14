@@ -140,26 +140,35 @@ def extract_via_ollama(transcript):
         "<CONVERSATION_LOG>\n"
         + transcript
         + "\n</CONVERSATION_LOG>\n\n"
-        "Output EXACTLY this format:\n\n"
+        "Output EXACTLY this format. Do NOT add bold, headers within sections, or extra formatting.\n\n"
         "## Summary\n"
         "One paragraph: what this session was about and what was accomplished.\n\n"
         "## Facts\n"
-        "- [entity_name] key: value\n"
-        "(List every specific fact mentioned: IP addresses, port numbers, "
-        "passwords, model names, file paths, versions, cron schedules, "
-        "RAM sizes, machine names. Be exhaustive.)\n\n"
+        "List EVERY specific fact as one fact per line. Format each line as:\n"
+        "- entity_name: exact detail with value\n"
+        "IMPORTANT: Always include the EXACT number, IP, port, path, or name. Examples:\n"
+        "- vader: IP 192.168.0.126\n"
+        "- vader: Ollama on port 11434\n"
+        "- vader: 256GB RAM\n"
+        "- deal-finder: runs on port 8200\n"
+        "- deal-finder: deployed on Docker LXC 192.168.0.144\n"
+        "- spool-processor: cron schedule */10 * * * *\n"
+        "- voldemort: 64GB RAM, M4 Pro\n"
+        "NOT 'runs Ollama' but 'runs Ollama on port 11434'. "
+        "NOT 'has RAM' but '256GB RAM'. Always include the specific value.\n"
+        "Include: IPs, ports, passwords, model names, file paths, versions, "
+        "cron schedules, RAM, hostnames. One fact per line. Be exhaustive.\n\n"
         "## Entities\n"
         "- entity_name | type | one-line description\n"
         "(Types: machine, service, project, tool, config, person)\n\n"
         "## Relationships\n"
-        "- entity_a -> relationship -> entity_b\n"
-        "(e.g., deal-finder -> deployed_on -> docker-lxc)\n\n"
+        "- entity_a -> relationship -> entity_b\n\n"
         "## Decisions\n"
         "- decision made | reason why\n"
-        "(Only if explicit choices were made. Write 'None' if no decisions.)\n\n"
+        "(Write 'None' if no decisions.)\n\n"
         "## Problems Solved\n"
         "- problem description | how it was fixed\n"
-        "(Only if errors were encountered and resolved. Write 'None' if no problems.)\n"
+        "(Write 'None' if no problems.)\n"
     )
 
     body = json.dumps(
@@ -290,6 +299,19 @@ def slugify(name):
     slug = re.sub(r"[^a-z0-9]+", "-", slug)
     slug = slug.strip("-")
     return slug or "unknown"
+
+
+def slugs_match(slug_a, slug_b):
+    """Fuzzy slug match — exact, contains, or contained-by."""
+    if slug_a == slug_b:
+        return True
+    # One contains the other (e.g., "engineering-rag" in "engineering-rag-mcp-server")
+    if slug_a in slug_b or slug_b in slug_a:
+        # Avoid false matches on very short slugs
+        shorter = min(len(slug_a), len(slug_b))
+        if shorter >= 4:
+            return True
+    return False
 
 
 def write_summary(session_id, checkpoint, cwd, date_str, extraction, entities, relationships):
@@ -516,11 +538,12 @@ def process_spool_file(spool_path):
     # 2. Entity notes
     entities_written = 0
     for ent_name, ent_type, ent_desc in entities:
-        # Gather facts for this entity
-        ent_facts = [(e, k, v) for e, k, v in facts if slugify(e) == slugify(ent_name)]
+        # Gather facts for this entity (fuzzy slug match)
+        ent_slug = slugify(ent_name)
+        ent_facts = [(e, k, v) for e, k, v in facts if slugs_match(slugify(e), ent_slug)]
         # Gather relationships involving this entity
         ent_rels = [(s, r, t) for s, r, t in relationships
-                    if slugify(s) == slugify(ent_name) or slugify(t) == slugify(ent_name)]
+                    if slugs_match(slugify(s), ent_slug) or slugs_match(slugify(t), ent_slug)]
         ent_path, count = write_entity_note(
             ent_name, ent_type, ent_desc, ent_facts, ent_rels, date_str
         )
