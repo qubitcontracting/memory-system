@@ -131,7 +131,18 @@ def extract_via_ollama(transcript):
         "You are a structured data extractor. You extract facts from conversation "
         "logs and produce structured reports. You write in past tense. You never "
         "generate dialogue, questions, or proposals. You omit details you are "
-        "unsure about rather than guessing. Output ONLY the requested format."
+        "unsure about rather than guessing. Output ONLY the requested format.\n\n"
+        "COREFERENCE RESOLUTION: When the same thing is referred to by multiple "
+        "names, ALWAYS use ONE canonical name consistently throughout your output. "
+        "Rules:\n"
+        "- For machines: use the hostname (vader, voldemort, gargamel, skynet, pihole), "
+        "NOT the hardware description (Mac Studio M3 Ultra, Mac mini M4 Pro).\n"
+        "- For services: use the short name (deal-finder, ollama, spool-processor), "
+        "NOT the full description.\n"
+        "- If someone says 'the M3 Ultra machine' or 'the Mac Studio' and it's clearly "
+        "vader, use 'vader' everywhere.\n"
+        "- Include hardware details as facts ABOUT the entity, not as the entity name.\n"
+        "Example: entity name 'vader', fact 'hardware: Mac Studio M3 Ultra, 256GB RAM'."
     )
 
     prompt = (
