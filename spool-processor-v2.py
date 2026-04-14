@@ -240,7 +240,19 @@ def parse_facts(facts_text):
                     facts.append((key_part, "info", value))
             else:
                 facts.append((key_part, "info", value))
-    return facts
+    # Post-process: split compound facts on sentence boundaries
+    split_facts = []
+    for entity, key, value in facts:
+        # Split on ". " or "; " to separate compound facts
+        parts = re.split(r"\.\s+|\;\s+", value)
+        parts = [p.strip().rstrip(".") for p in parts if p.strip()]
+        if len(parts) > 1:
+            for part in parts:
+                split_facts.append((entity, key, part))
+        else:
+            split_facts.append((entity, key, value.rstrip(".")))
+
+    return split_facts
 
 
 def parse_entities(entities_text):
@@ -359,22 +371,24 @@ date: {date_str}
     return md_path
 
 
-def write_entity_note(entity_name, entity_type, description, facts, relationships, date_str):
-    """Create or append to an entity note."""
+def write_entity_note(entity_name, entity_type, description, facts, relationships, date_str, session_id="unknown"):
+    """Create or append to an entity note. Facts include session backlinks."""
     BM_ENTITIES.mkdir(parents=True, exist_ok=True)
 
     slug = slugify(entity_name)
     md_path = BM_ENTITIES / f"{slug}.md"
+    session_link = f"[[{session_id[:12]}]]"
 
     if md_path.exists():
         existing = md_path.read_text()
 
-        # Append new facts, skipping duplicates
+        # Append new facts, skipping duplicates (check value without backlink)
         new_lines = []
         for _, key, value in facts:
-            fact_line = f"- [fact] {key}: {value}"
-            if fact_line not in existing:
-                new_lines.append(fact_line)
+            # Check if the core fact already exists (ignore session backlinks for dedup)
+            core_fact = f"{key}: {value}"
+            if core_fact not in existing:
+                new_lines.append(f"- [fact] {key}: {value} (from {session_link})")
 
         # Append new relationships
         for src, rel, tgt in relationships:
@@ -383,7 +397,6 @@ def write_entity_note(entity_name, entity_type, description, facts, relationship
                 new_lines.append(rel_line)
 
         if new_lines:
-            # Add date marker and new content
             addition = f"\n### Updated {date_str}\n" + "\n".join(new_lines) + "\n"
             existing = existing.rstrip() + "\n" + addition
             md_path.write_text(existing)
@@ -391,7 +404,6 @@ def write_entity_note(entity_name, entity_type, description, facts, relationship
         return md_path, 0
     else:
         # Create new entity note
-        # Build relationship links
         rel_links = []
         for src, rel, tgt in relationships:
             other = tgt if slugify(src) == slug else src
@@ -413,7 +425,7 @@ tags: entity, {entity_type}
 ## Facts
 """
         for _, key, value in facts:
-            md += f"- [fact] {key}: {value}\n"
+            md += f"- [fact] {key}: {value} (from {session_link})\n"
 
         if rel_links:
             md += "\n## Relationships\n"
@@ -537,19 +549,45 @@ def process_spool_file(spool_path):
 
     # 2. Entity notes
     entities_written = 0
+    matched_fact_indices = set()
+
     for ent_name, ent_type, ent_desc in entities:
         # Gather facts for this entity (fuzzy slug match)
         ent_slug = slugify(ent_name)
-        ent_facts = [(e, k, v) for e, k, v in facts if slugs_match(slugify(e), ent_slug)]
+        ent_facts = []
+        for i, (e, k, v) in enumerate(facts):
+            if slugs_match(slugify(e), ent_slug):
+                ent_facts.append((e, k, v))
+                matched_fact_indices.add(i)
         # Gather relationships involving this entity
         ent_rels = [(s, r, t) for s, r, t in relationships
                     if slugs_match(slugify(s), ent_slug) or slugs_match(slugify(t), ent_slug)]
         ent_path, count = write_entity_note(
-            ent_name, ent_type, ent_desc, ent_facts, ent_rels, date_str
+            ent_name, ent_type, ent_desc, ent_facts, ent_rels, date_str, session_id
         )
         if count > 0:
             entities_written += 1
             log(f"BM entity: {ent_path.name} (+{count} facts)")
+
+    # 2b. Orphan facts — create entity notes for facts that didn't match any entity
+    orphan_facts = [(e, k, v) for i, (e, k, v) in enumerate(facts)
+                    if i not in matched_fact_indices]
+    if orphan_facts:
+        # Group orphans by entity name
+        orphan_groups = {}
+        for e, k, v in orphan_facts:
+            slug = slugify(e)
+            if slug not in orphan_groups:
+                orphan_groups[slug] = {"name": e, "facts": []}
+            orphan_groups[slug]["facts"].append((e, k, v))
+
+        for slug, group in orphan_groups.items():
+            ent_path, count = write_entity_note(
+                group["name"], "unknown", "", group["facts"], [], date_str, session_id
+            )
+            if count > 0:
+                entities_written += 1
+                log(f"BM entity (orphan): {ent_path.name} (+{count} facts)")
 
     # 3. Decisions log
     dec_path = write_decisions(date_str, decisions, session_id)
