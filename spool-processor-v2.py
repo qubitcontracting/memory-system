@@ -166,21 +166,25 @@ def extract_via_ollama(transcript):
         "- scrcpy | tool | Android screen mirroring\n\n"
         "## Facts\n"
         "One fact per line. The entity name MUST match an entity from the list above.\n"
-        "- entity_name: one specific fact with exact value\n"
-        "Rules:\n"
-        "- Include exact numbers: IPs, ports, passwords, RAM, versions, cron schedules, file paths\n"
-        "- One fact per line, not multiple facts combined\n"
-        "- Attribute to the correct entity (if docker-lxc runs a service, the fact belongs to docker-lxc)\n"
-        "- If unsure which entity a fact belongs to, skip it entirely\n"
+        "Format: entity_name: key: value\n"
+        "Use these keys: ip, port, ram, password, version, cron, path, model, "
+        "config, hardware, tailscale-ip, status, deployed-on, ssh-port\n"
         "Example:\n"
-        "- vader: IP 192.168.0.126\n"
-        "- vader: 256GB RAM\n"
-        "- vader: runs Ollama on port 11434\n"
-        "- docker-lxc: IP 192.168.0.144\n"
-        "- docker-lxc: runs Chroma on port 8001\n"
-        "- gitea: admin password gitea2026\n"
-        "- gitea: SSH on port 2222\n"
-        "- spool-processor: cron */10 * * * *\n\n"
+        "- vader: ip: 192.168.0.126\n"
+        "- vader: ram: 256GB\n"
+        "- vader: hardware: Mac Studio M3 Ultra\n"
+        "- docker-lxc: ip: 192.168.0.144\n"
+        "- chroma: port: 8001\n"
+        "- chroma: deployed-on: docker-lxc\n"
+        "- gitea: password: gitea2026\n"
+        "- gitea: port: 3030\n"
+        "- gitea: ssh-port: 2222\n"
+        "- spool-processor: cron: */10 * * * *\n"
+        "- ollama: model: qwen2.5-coder:7b\n"
+        "Rules:\n"
+        "- One fact per line, one key per line\n"
+        "- Attribute to the correct entity\n"
+        "- If unsure which entity a fact belongs to, skip it entirely\n\n"
         "## Relationships\n"
         "- entity_a -> relationship -> entity_b\n\n"
         "## Decisions\n"
@@ -233,33 +237,27 @@ def parse_facts(facts_text):
         if not line.startswith("-"):
             continue
         line = line[1:].strip()
-        # Format 1: [entity_name] key: value
+
+        # Format 1: entity: key: value (structured keys — preferred)
+        # Match: "vader: ip: 192.168.0.126" or "gitea: ssh-port: 2222"
+        m = re.match(r"^([^:]+?):\s*([a-z][a-z0-9_-]*):\s*(.+)", line)
+        if m:
+            facts.append((m.group(1).strip(), m.group(2).strip(), m.group(3).strip()))
+            continue
+
+        # Format 2: [entity_name] key: value (legacy bracket format)
         m = re.match(r"\[([^\]]+)\]\s*(.+?):\s*(.+)", line)
         if m:
             facts.append((m.group(1).strip(), m.group(2).strip(), m.group(3).strip()))
             continue
-        # Format 2: "Entity Name key: value" or "Entity Name: description"
+
+        # Format 3: entity_name: description (fallback — no structured key)
         if ": " in line:
-            key_part, _, value = line.partition(": ")
-            key_part = key_part.strip()
+            entity, _, value = line.partition(": ")
+            entity = entity.strip()
             value = value.strip()
-            if not value or not key_part:
-                continue
-            words = key_part.split()
-            if len(words) >= 2:
-                # Check if last word looks like a key (port, IP, model, ram, etc.)
-                last_word = words[-1].lower()
-                key_words = {"port", "ip", "model", "ram", "version", "path",
-                             "host", "url", "cron", "schedule", "password",
-                             "user", "name", "type", "size", "address"}
-                if last_word in key_words:
-                    entity = " ".join(words[:-1])
-                    facts.append((entity, words[-1], value))
-                else:
-                    # Whole key_part is the entity name, value is a description
-                    facts.append((key_part, "info", value))
-            else:
-                facts.append((key_part, "info", value))
+            if entity and value:
+                facts.append((entity, "info", value))
     # Post-process: split compound facts on sentence boundaries
     split_facts = []
     for entity, key, value in facts:
