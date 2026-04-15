@@ -142,7 +142,9 @@ def extract_via_ollama(transcript):
         "If you write a fact about 'vader', 'vader' must be in Entities.\n"
         "4. Attribute facts to the CORRECT entity. If Docker LXC runs Chroma, "
         "the fact is 'docker-lxc: runs Chroma on port 8001', NOT 'vader: runs Chroma'.\n"
-        "5. One fact per line. Do NOT combine multiple facts into one line."
+        "5. One fact per line. Do NOT combine multiple facts. Do NOT duplicate facts.\n"
+        "6. ACCURACY OVER COMPLETENESS: If you are not certain which entity a fact "
+        "belongs to, SKIP it. It is better to miss a fact than to write a wrong one."
     )
 
     prompt = (
@@ -169,6 +171,7 @@ def extract_via_ollama(transcript):
         "- Include exact numbers: IPs, ports, passwords, RAM, versions, cron schedules, file paths\n"
         "- One fact per line, not multiple facts combined\n"
         "- Attribute to the correct entity (if docker-lxc runs a service, the fact belongs to docker-lxc)\n"
+        "- If unsure which entity a fact belongs to, skip it entirely\n"
         "Example:\n"
         "- vader: IP 192.168.0.126\n"
         "- vader: 256GB RAM\n"
