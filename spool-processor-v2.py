@@ -55,7 +55,7 @@ try:
 except Exception:
     OLLAMA_URL = "http://192.168.0.126:11434/api/generate"
     OLLAMA_MODEL = "qwen3-coder:30b"
-OLLAMA_TIMEOUT = 90
+OLLAMA_TIMEOUT = 120  # 20KB chunks complete in ~45s, 120s gives headroom
 
 SYNC_SCRIPT = CLAUDE_MEM / "sync-to-remote.py"
 
