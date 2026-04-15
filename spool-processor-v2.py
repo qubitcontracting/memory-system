@@ -50,10 +50,11 @@ try:
     import json as _json
     _llm_cfg = _json.load(open(CLAUDE_MEM / "llm-config.json"))
     OLLAMA_URL = _llm_cfg["ollama"]["url"] + "/api/generate"
-    OLLAMA_MODEL = _llm_cfg["ollama"]["models"]["summarizer"]
+    OLLAMA_MODEL = _llm_cfg["ollama"]["models"].get("librarian",
+                   _llm_cfg["ollama"]["models"]["summarizer"])
 except Exception:
     OLLAMA_URL = "http://192.168.0.126:11434/api/generate"
-    OLLAMA_MODEL = "qwen2.5-coder:7b"
+    OLLAMA_MODEL = "qwen3-coder:30b"
 OLLAMA_TIMEOUT = 90
 
 SYNC_SCRIPT = CLAUDE_MEM / "sync-to-remote.py"
